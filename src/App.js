@@ -55,10 +55,12 @@ function App() {
                 />
             </main>
             <footer>
-                <section>The brand</section>
-                <section>Image</section>
-                <section>Our story</section>
-                <section>Image</section>
+              <Tile
+              image={"image"}
+              title={"title"}
+              paragraph={"paragraph"}
+              ></Tile>
+
             </footer>
         </div>
     );
