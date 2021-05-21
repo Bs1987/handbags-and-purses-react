@@ -14,9 +14,18 @@ function App() {
         <div>
             <h1>Handbags & Purses</h1>
             <nav>
-                <Button ButtonName={"To the Collection"}/>
-                <Button ButtonName={"Shop all bags"}/>
-                <Button ButtonName={"Pre-Order now!"}/>
+                <Button
+                    ButtonName={"To the Collection"}
+                    disable={false}
+                />
+                <Button
+                    ButtonName={"Shop all bags"}
+                    disable={false}
+                />
+                <Button
+                    ButtonName={"Pre-Order now!"}
+                    disable={true}
+                />
             </nav>
             <main>
                 <Product

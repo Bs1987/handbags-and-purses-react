@@ -1,8 +1,8 @@
 
 function Button(props) {
-console.log(props);
     return (
-        <button type="button"
+        <button disabled={props.disable}
+            type="button"
                 onClick={() => console.log(`${props.ButtonName}`)}>
             {props.ButtonName}
         </button>
