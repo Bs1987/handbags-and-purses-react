@@ -44,6 +44,12 @@ function App() {
                     price={"€150,-"}
                 />
             </main>
+            <footer>
+                <section>The brand</section>
+                <section>Image</section>
+                <section>Our story</section>
+                <section>Image</section>
+            </footer>
         </div>
     );
 }
