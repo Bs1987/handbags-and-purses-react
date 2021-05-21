@@ -11,6 +11,44 @@ function App() {
                 <Button ButtonName={"Shop all bags"}/>
                 <Button ButtonName={"Pre-Order now!"}/>
             </nav>
+            <main>
+                <article>
+                <span>
+                    Red label
+                </span>
+                    <img src="assets/bag_1.png" alt=""/>
+                    <p>
+                        bag name
+                    </p>
+                    <h4>
+                        price
+                    </h4>
+                </article>
+                <article>
+                <span>
+                    Red label
+                </span>
+                    <img src="assets/bag_1.png" alt=""/>
+                    <p>
+                        bag name
+                    </p>
+                    <h4>
+                        price
+                    </h4>
+                </article>
+                <article>
+                <span>
+                    Red label
+                </span>
+                    <img src="assets/bag_1.png" alt=""/>
+                    <p>
+                        bag name
+                    </p>
+                    <h4>
+                        price
+                    </h4>
+                </article>
+            </main>
         </div>
     );
 }
