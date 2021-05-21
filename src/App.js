@@ -55,12 +55,22 @@ function App() {
                 />
             </main>
             <footer>
-              <Tile
-              image={"image"}
-              title={"title"}
-              paragraph={"paragraph"}
-              ></Tile>
-
+                <Tile
+                    title={"THE BRAND"}
+                    paragraphs={["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur consequuntur corporis cumque dignissimos dolorem doloremque doloribus ducimus enim fugit ipsum iure, minima odit officiis possimus quod sint vitae voluptatum?"]}
+                />
+                <Tile
+                    image={brand}
+                    imageAlt={"Brand"}
+                />
+                <Tile
+                image={ourStory}
+                imageAlt={"Designers"}
+                />
+                <Tile
+                title={"OUR STORY"}
+                   paragraphs={["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dignissimos, facere fugiat harum, id in inventore iste pariatur quisquam quos rem repellendus repudiandae suscipit! Architecto delectus harum id itaque vero?"]}
+                />
             </footer>
         </div>
     );
