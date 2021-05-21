@@ -20,19 +20,19 @@
 
 
 function Product(props) {
-    console.log(props)
+    console.log(props);
     return (
         <div>
             <article>
                 <span>
-                    Red label
+                    {props.label}
                 </span>
-                <img src="./assets/bag_1.png" alt=""/>
+                <img src={props.image} alt={props.productName}/>
                 <p>
-                    bag name
+                    {props.productName}
                 </p>
                 <h4>
-                    price
+                    {props.price}
                 </h4>
             </article>
         </div>

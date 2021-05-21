@@ -21,7 +21,8 @@ function App() {
             <main>
                 <Product
                     label={"Bestseller"}
-                    name={"The handy bag"}
+                    image={handyBag}
+                    productName={"The handy bag"}
                     price={"€400,-"}
                 />
                 <Product/>
