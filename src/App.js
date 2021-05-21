@@ -13,6 +13,7 @@ function App() {
                 <Button ButtonName={"Pre-Order now!"}/>
             </nav>
             <main>
+                <Product label={"Bestseller"} name={"The handy bag"} price={"€400,-"}/>
                 <Product/>
                 <Product/>
                 <Product/>

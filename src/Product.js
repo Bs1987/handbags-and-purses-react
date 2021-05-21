@@ -19,14 +19,15 @@
 // - [x] Interpoleren in JSX
 
 
-function Product() {
+function Product(props) {
+    console.log(props)
     return (
         <div>
             <article>
                 <span>
                     Red label
                 </span>
-                <img src="assets/bag_1.png" alt=""/>
+                <img src="./assets/bag_1.png" alt=""/>
                 <p>
                     bag name
                 </p>
