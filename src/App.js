@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "./Button";
 import Product from "./Product";
+import Tile from "./Tile";
 import handyBag from "./assets/bag_1.png";
 import stylishBag from "./assets/bag_2.png";
 import simpleBag from "./assets/bag_3.png";

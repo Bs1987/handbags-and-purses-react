@@ -17,14 +17,16 @@
 //      - [x] Props toevoegen als parameter van de component functie
 //      - [x] De juist component eruit halen en gebruiken in je component (subject)
 // - [x] Interpoleren in JSX
-function Tile() {
+function Tile(props) {
+    console.log(props);
     return (
         <div>
-        <section>The brand</section>
-    <section>Image</section>
-    <section>Our story</section>
-    <section>Image</section>
-</div>
-)
-    ;
+            <section>The brand</section>
+            <section>Image</section>
+            <section>Our story</section>
+            <section>Image</section>
+        </div>
+    );
 }
+
+export default Tile;
