@@ -7,18 +7,9 @@ function App() {
         <div>
             <h1>Handbags & Purses</h1>
             <nav>
-                <button type="button"
-                        onClick={() => console.log("To the collection")}>
-                    To the collection
-                </button>
-                <button type="button"
-                        onClick={() => console.log("Shop all bags")}>
-                    Shop all bags
-                </button>
-                <button type="button"
-                        onClick={() => console.log("Pre-order")}>
-                    Pre-order
-                </button>
+                <Button ButtonName={"To the Collection"}/>
+                <Button ButtonName={"Shop all bags"}/>
+                <Button ButtonName={"Pre-Order now!"}/>
 
             </nav>
         </div>

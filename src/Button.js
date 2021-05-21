@@ -17,8 +17,8 @@
 //      - [x] Props toevoegen als parameter van de component functie
 //      - [x] De juist component eruit halen en gebruiken in je component (subject)
 // - [x] Interpoleren in JSX
-function Button() {
-
+function Button(props) {
+console.log(props);
     return (
         <button type="button"
                 onClick={() => console.log("To the collection")}>
