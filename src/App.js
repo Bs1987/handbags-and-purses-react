@@ -10,7 +10,6 @@ function App() {
                 <Button ButtonName={"To the Collection"}/>
                 <Button ButtonName={"Shop all bags"}/>
                 <Button ButtonName={"Pre-Order now!"}/>
-
             </nav>
         </div>
     );
