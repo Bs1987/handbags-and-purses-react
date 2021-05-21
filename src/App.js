@@ -25,9 +25,24 @@ function App() {
                     productName={"The handy bag"}
                     price={"€400,-"}
                 />
-                <Product/>
-                <Product/>
-                <Product/>
+                <Product
+                    label={"Bestseller"}
+                    image={stylishBag}
+                    productName={"The stylish bag"}
+                    price={"€250,-"}
+                />
+                <Product
+                    label={"New Collection"}
+                    image={simpleBag}
+                    productName={"The simple bag"}
+                    price={"€300,-"}
+                />
+                <Product
+                    label={"New Collection"}
+                    image={trendyBag}
+                    productName={"The trendy bag"}
+                    price={"€150,-"}
+                />
             </main>
         </div>
     );
